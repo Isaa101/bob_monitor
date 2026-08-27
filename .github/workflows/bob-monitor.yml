@@ -5,7 +5,7 @@ on:
   schedule:
     # Cada 5 minutos. Se empieza en el minuto 2 para evitar el pico
     # habitual del inicio exacto de cada hora.
-    - cron: "2-59/5 * * * *"
+    - cron: "2/5 * * * *"
 
 permissions:
   contents: write
